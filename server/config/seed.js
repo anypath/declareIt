@@ -27,15 +27,15 @@ var Item = require('../api/item/item.model');
 //   );
 // });
 
-Item.find({}).remove(function() {
-  Item.create({
-    name: 'item1',
-    data: {name: "doggy1"}
-  }, {
-    name: 'item2',
-    data: {name: "doggy2"}
-  }, function() {
-      console.log('finished populating items');
-    }
-  );
-});
+// Item.find({}).remove(function() {
+//   Item.create({
+//     name: 'item1',
+//     data: {name: "doggy1"}
+//   }, {
+//     name: 'item2',
+//     data: {name: "doggy2"}
+//   }, function() {
+//       console.log('finished populating items');
+//     }
+//   );
+// });
