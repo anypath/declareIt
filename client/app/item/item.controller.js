@@ -28,12 +28,12 @@ angular.module('dashboardAppApp')
       $http.put('/api/items/' + _id, $scope.item );
     };
 
-    $scope.deleteItem = function(item) {
-      $http.delete('/api/items/' + item._id);
-    };
+    // $scope.deleteItem = function(item) {
+    //   $http.delete('/api/items/' + item._id);
+    // };
 
-    $scope.$on('$destroy', function () {
-      socket.unsyncUpdates('item');
-    });
+    // $scope.$on('$destroy', function () {
+    //   socket.unsyncUpdates('item');
+    // });
 
   });

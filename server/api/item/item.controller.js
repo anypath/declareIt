@@ -52,16 +52,16 @@ exports.update = function(req, res) {
 };
 
 // Deletes a item from the DB.
-exports.destroy = function(req, res) {
-  Item.findById(req.params.id, function (err, item) {
-    if(err) { return handleError(res, err); }
-    if(!item) { return res.send(404); }
-    item.remove(function(err) {
-      if(err) { return handleError(res, err); }
-      return res.send(204);
-    });
-  });
-};
+// exports.destroy = function(req, res) {
+//   Item.findById(req.params.id, function (err, item) {
+//     if(err) { return handleError(res, err); }
+//     if(!item) { return res.send(404); }
+//     item.remove(function(err) {
+//       if(err) { return handleError(res, err); }
+//       return res.send(204);
+//     });
+//   });
+// };
 
 function handleError(res, err) {
   return res.send(500, err);
