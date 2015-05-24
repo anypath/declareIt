@@ -11,7 +11,10 @@ angular.module('dashboardAppApp')
     } else {
       $http.get('/api/items/' + _id).success(function(item) {
         $scope.item = item;
-        $scope.item.data = JSON.stringify(item.data,null,"    ")
+        $scope.item.imgInfo = JSON.stringify(item.imgInfo,null,"    ")
+        $scope.item.cryptInfo = JSON.stringify(item.cryptInfo,null,"    ")
+        $scope.item.entryInfo = JSON.stringify(item.entryInfo,null,"    ")
+        $scope.item.repInfo = JSON.stringify(item.repInfo,null,"    ")
         socket.syncUpdates('item', $scope.item);
       });
     }

@@ -14,7 +14,7 @@ var Item = require('./item.model');
 
 // Get list of items
 exports.index = function(req, res) {
-  Item.find(function (err, items) {
+  Item.find({uuid: req.query.uuid}, function (err, items) {
     if(err) { return handleError(res, err); }
     return res.json(200, items);
   });
