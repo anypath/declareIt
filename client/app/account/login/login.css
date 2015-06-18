@@ -1,23 +1,275 @@
 .btn-facebook {
-  color: #fff;
-  background-color: #3B5998;
-  border-color: #133783;
+    color: #fff;
+    background-color: #3B5998;
+    border-color: #133783;
 }
 
 .btn-twitter {
-  color: #fff;
-  background-color: #2daddc;
-  border-color: #0271bf;
+    color: #fff;
+    background-color: #2daddc;
+    border-color: #0271bf;
 }
 
 .btn-google-plus {
-  color: #fff;
-  background-color: #dd4b39;
-  border-color: #c53727;
+    color: #fff;
+    background-color: #dd4b39;
+    border-color: #c53727;
 }
 
 .btn-github {
-  color: #fff;
-  background-color: #fafafa;
-  border-color: #ccc;
+    color: #fff;
+    background-color: #fafafa;
+    border-color: #ccc;
+}
+
+.authenty.signin-alt {
+    background-color: #373746;
+    color: #eaeaea;
+}
+/* line 196, ../sass/authenty.scss */
+
+.authenty.signin-alt .section-content {
+    padding: 0;
+}
+/* line 199, ../sass/authenty.scss */
+
+.authenty.signin-alt .title {
+    margin-bottom: 50px;
+    text-align: left;
+}
+/* line 203, ../sass/authenty.scss */
+
+.authenty.signin-alt label {
+    font-weight: normal;
+}
+/* line 206, ../sass/authenty.scss */
+
+.authenty.signin-alt .wrap {}
+/* line 209, ../sass/authenty.scss */
+
+.authenty.signin-alt .bottom-wrap {
+    padding-top: 30px;
+    border-top: 1px solid #7A8086;
+}
+/* line 212, ../sass/authenty.scss */
+
+.authenty.signin-alt .bottom-wrap.top-buffer {
+    margin-top: 40px;
+    margin-right: 15px;
+}
+/* line 214, ../sass/authenty.scss */
+
+.authenty.signin-alt .bottom-wrap.top-buffer a {
+    color: #fff;
+    -webkit-transition: color 300ms linear;
+    -moz-transition: color 300ms linear;
+    -o-transition: color 300ms linear;
+    -ms-transition: color 300ms linear;
+    transition: color 300ms linear;
+}
+/* line 221, ../sass/authenty.scss */
+
+.authenty.signin-alt .bottom-wrap.top-buffer a:hover {
+    color: #ff7000;
+}
+/* line 228, ../sass/authenty.scss */
+
+.authenty.signin-alt .normal-signin .un-wrap {
+    position: relative;
+}
+/* line 230, ../sass/authenty.scss */
+
+.authenty.signin-alt .normal-signin .un-wrap .fa-user {
+    position: absolute;
+    top: 2px;
+    left: 1px;
+    color: #515561;
+    font-size: 14pt;
+    padding: 10px 14px;
+    background-color: #1C1F25;
+}
+/* line 240, ../sass/authenty.scss */
+
+.authenty.signin-alt .normal-signin .pw-wrap {
+    position: relative;
+}
+/* line 242, ../sass/authenty.scss */
+
+.authenty.signin-alt .normal-signin .pw-wrap .fa-lock {
+    position: absolute;
+    top: 2px;
+    left: 1px;
+    color: #515561;
+    font-size: 14pt;
+    padding: 10px 16px;
+    background-color: #1C1F25;
+}
+/* line 252, ../sass/authenty.scss */
+
+.authenty.signin-alt .normal-signin input[type="email"],
+.authenty.signin-alt .normal-signin input[type="password"] {
+    padding-left: 60px;
+    border-radius: 0;
+    border: 1px solid #7A8086;
+    margin-bottom: 20px;
+    color: #ccc;
+    background-color: #282A38;
+    height: 42px;
+}
+/* line 261, ../sass/authenty.scss */
+
+.authenty.signin-alt .normal-signin .signin {
+    padding: 10px 15px;
+    background-color: #3e4764;
+    border: 1px solid #7A8086;
+    color: #fff;
+    -webkit-transition: background-color 300ms linear;
+    -moz-transition: background-color 300ms linear;
+    -o-transition: background-color 300ms linear;
+    -ms-transition: background-color 300ms linear;
+    transition: background-color 300ms linear;
+}
+/* line 271, ../sass/authenty.scss */
+
+.authenty.signin-alt .normal-signin .signin:hover {
+    background-color: #1E2B46;
+}
+/* line 276, ../sass/authenty.scss */
+
+.authenty.signin-alt .horizontal-divider {
+    margin: 0 auto;
+    position: relative;
+    width: 0px;
+    top: 0;
+    background-color: #fff;
+}
+/* line 282, ../sass/authenty.scss */
+
+.authenty.signin-alt .horizontal-divider:before {
+    content: 'OR';
+    position: absolute;
+    top: 110px;
+    left: -30px;
+    padding: 20px;
+    font-size: 18px;
+    background: #3e4764;
+    border-radius: 50%;
+    color: #fff;
+}
+/* line 294, ../sass/authenty.scss */
+
+.authenty.signin-alt .sns-signin {
+    margin-top: 55px;
+}
+/* line 296, ../sass/authenty.scss */
+
+.authenty.signin-alt .sns-signin a {
+    margin-bottom: 22px;
+    display: block;
+    color: #fff;
+}
+/* line 300, ../sass/authenty.scss */
+
+.authenty.signin-alt .sns-signin a span {
+    margin-left: 70px;
+    margin-top: -37px;
+}
+/* line 304, ../sass/authenty.scss */
+
+.authenty.signin-alt .sns-signin .ripple {
+    background-color: #3e4764;
+    -webkit-transition: background-color 300ms linear;
+    -moz-transition: background-color 300ms linear;
+    -o-transition: background-color 300ms linear;
+    -ms-transition: background-color 300ms linear;
+    transition: background-color 300ms linear;
+}
+/* line 311, ../sass/authenty.scss */
+
+.authenty.signin-alt .sns-signin .ripple:hover {
+    background-color: #235B97;
+}
+/* line 314, ../sass/authenty.scss */
+
+.ripple {
+    height: 45px;
+    pointer-events: none;
+}
+
+.authenty.signin-alt .sns-signin .ripple .fa-ripple {
+    color: #505050;
+    background-color: #eaeaea;
+    padding: 30px 25px 15px 18px;
+    background-image: url(https://www.rippletrade.com/img/favicon.ico);
+    background-repeat: no-repeat;
+    background-size: 16px 16px;
+    background-position: center;
+}
+/* line 304, ../sass/authenty.scss */
+
+.authenty.signin-alt .sns-signin .facebook {
+    background-color: #3276b1;
+    border-color: #285e8e;
+    -webkit-transition: background-color 300ms linear;
+    -moz-transition: background-color 300ms linear;
+    -o-transition: background-color 300ms linear;
+    -ms-transition: background-color 300ms linear;
+    transition: background-color 300ms linear;
+}
+/* line 311, ../sass/authenty.scss */
+
+.authenty.signin-alt .sns-signin .facebook:hover {
+    background-color: #235B97;
+}
+/* line 314, ../sass/authenty.scss */
+
+.authenty.signin-alt .sns-signin .facebook .fa-facebook {
+    color: #505050;
+    background-color: #eaeaea;
+    padding: 15px 19px 15px 18px;
+}
+/* line 320, ../sass/authenty.scss */
+
+.authenty.signin-alt .sns-signin .google-plus {
+    background-color: #e66060;
+    -webkit-transition: background-color 300ms linear;
+    -moz-transition: background-color 300ms linear;
+    -o-transition: background-color 300ms linear;
+    -ms-transition: background-color 300ms linear;
+    transition: background-color 300ms linear;
+    pointer-events: none;
+}
+/* line 327, ../sass/authenty.scss */
+
+.authenty.signin-alt .sns-signin .google-plus:hover {
+    background-color: #EC574B;
+}
+/* line 330, ../sass/authenty.scss */
+
+.authenty.signin-alt .sns-signin .google-plus .fa-google-plus {
+    color: #505050;
+    background-color: #eaeaea;
+    padding: 15px;
+}
+
+@media screen and (max-width: 991px) {
+    /* line 342, ../sass/authenty.scss */
+    
+    .authenty.signin-alt .horizontal-divider:before {
+        top: 10px;
+        left: -30px;
+        padding: 20px;
+        font-size: 16px;
+    }
+    /* line 348, ../sass/authenty.scss */
+    
+    .authenty.signin-alt .bottom-wrap.top-buffer {
+        margin-top: 50px;
+    }
+    /* line 351, ../sass/authenty.scss */
+    
+    .authenty.signin-alt .container {
+        padding-right: 30px;
+        padding-left: 30px;
+    }
 }

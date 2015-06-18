@@ -1,0 +1,236 @@
+/* line 361, ../sass/authenty.scss */
+
+.authenty.signup-window .title {
+    text-align: left;
+    color: #ccc;
+}
+/* line 365, ../sass/authenty.scss */
+
+.authenty.signup-window .wrap {}
+/* line 368, ../sass/authenty.scss */
+
+.authenty.signup-window .form-wrap {
+    background-color: #333;
+    padding: 50px 50px 100px 50px;
+    position: relative;
+}
+/* line 372, ../sass/authenty.scss */
+
+.authenty.signup-window .form-wrap .fa-times-circle {
+    position: absolute;
+    top: 15px;
+    right: 20px;
+    font-size: 30px;
+    color: #000;
+}
+/* line 380, ../sass/authenty.scss */
+
+.authenty.signup-window .form-control:focus {
+    border: none;
+    border-bottom: 1px solid #505050;
+    box-shadow: 0 0 5px #ccc;
+}
+/* line 387, ../sass/authenty.scss */
+
+.authenty.signup-window input[type="text"],
+.authenty.signup-window input[type="password"],
+.authenty.signup-window input[type="email"] {
+    background: none;
+    border: none;
+    border-bottom: 1px solid #505050;
+    box-shadow: none;
+    padding: 10px 0 10px 10px;
+    border-radius: 0;
+    margin-bottom: 20px;
+    color: #ccc;
+}
+/* line 397, ../sass/authenty.scss */
+
+.authenty.signup-window .checkbox label {
+    color: #505050;
+    font-size: 10pt;
+}
+/* line 401, ../sass/authenty.scss */
+
+.authenty.signup-window .sns-signin {
+    margin-top: 50px;
+}
+/* line 403, ../sass/authenty.scss */
+
+.authenty.signup-window .sns-signin a {
+    display: block;
+    text-align: left;
+    border-radius: 50px;
+    -webkit-transition: background-color 300ms linear;
+    -moz-transition: background-color 300ms linear;
+    -o-transition: background-color 300ms linear;
+    -ms-transition: background-color 300ms linear;
+    transition: background-color 300ms linear;
+}
+/* line 412, ../sass/authenty.scss */
+
+.authenty.signup-window .sns-signin .ripple {
+    background-color: #3e4764;
+    -webkit-transition: background-color 300ms linear;
+    -moz-transition: background-color 300ms linear;
+    -o-transition: background-color 300ms linear;
+    -ms-transition: background-color 300ms linear;
+    transition: background-color 300ms linear;
+}
+/* line 311, ../sass/authenty.scss */
+
+.authenty.signup-window .sns-signin .ripple:hover {
+    background-color: #235B97;
+}
+/* line 314, ../sass/authenty.scss */
+
+.ripple {
+    height: 45px;
+}
+
+.authenty.signup-window .sns-signin a span {
+    margin-left: 70px;
+    margin-top: -37px;
+    display: block;
+    color: white;
+    height: 25px;
+}
+
+.authenty.signup-window .sns-signin a .span-facebook {
+    margin-left: 55px;
+    margin-top: -40px;
+    display: block;
+    color: white;
+}
+.authenty.signup-window .sns-signin .google-plus {
+  background-color: #e66060;
+    border-color: #e66060;
+  -webkit-transition: background-color 300ms linear;
+  -moz-transition: background-color 300ms linear;
+  -o-transition: background-color 300ms linear;
+  -ms-transition: background-color 300ms linear;
+  transition: background-color 300ms linear;
+}
+/* line 327, ../sass/authenty.scss */
+.authenty.signup-window .sns-signin .google-plus:hover {
+  background-color: #EC574B;
+    border-color: #e66060;
+}
+/* line 330, ../sass/authenty.scss */
+.authenty.signup-window .sns-signin .google-plus .fa-google-plus {
+  color: #505050;
+  padding: 15px;
+}
+.authenty.signup-window .sns-signin .ripple .fa-ripple {
+    color: #505050;
+    padding: 30px 25px 15px 18px;
+    background-image: url(https://www.rippletrade.com/img/favicon.ico);
+    background-repeat: no-repeat;
+    background-size: 16px 16px;
+    background-position: center;
+}
+/* line 422, ../sass/authenty.scss */
+
+.authenty.signup-window .horizontal-divider {
+    margin: 0 auto;
+    position: relative;
+    width: 1px;
+    height: 250px;
+    background-color: #505050;
+}
+/* line 428, ../sass/authenty.scss */
+
+.authenty.signup-window .horizontal-divider:before {
+    content: 'OR';
+    position: absolute;
+    top: 40%;
+    left: -11px;
+    padding: 5px 0;
+    font-size: 16px;
+    background: #333;
+    color: #ccc;
+}
+/* line 439, ../sass/authenty.scss */
+
+.authenty.signup-window .normal-signup {
+    margin-top: 30px;
+}
+/* line 441, ../sass/authenty.scss */
+
+.authenty.signup-window .normal-signup a {
+    line-height: 2.5;
+    color: #ccc;
+    -webkit-transition: color 300ms linear;
+    -moz-transition: color 300ms linear;
+    -o-transition: color 300ms linear;
+    -ms-transition: color 300ms linear;
+    transition: color 300ms linear;
+}
+/* line 449, ../sass/authenty.scss */
+
+.authenty.signup-window .normal-signup a:hover {
+    color: #78B310;
+}
+/* line 453, ../sass/authenty.scss */
+
+.authenty.signup-window .normal-signup .signup {
+    padding: 8px 15px;
+    background-color: #78B310;
+    color: #fff;
+    -webkit-transition: background-color 300ms linear;
+    -moz-transition: background-color 300ms linear;
+    -o-transition: background-color 300ms linear;
+    -ms-transition: background-color 300ms linear;
+    transition: background-color 300ms linear;
+}
+/* line 462, ../sass/authenty.scss */
+
+.authenty.signup-window .normal-signup .signup:hover {
+    background-color: #5B910C;
+}
+
+@media screen and (max-width: 767px) {
+    /* line 471, ../sass/authenty.scss */
+    
+    .authenty.signup-window .title {
+        margin-left: 15px;
+    }
+    /* line 474, ../sass/authenty.scss */
+    
+    .authenty.signup-window .form-wrap {
+        padding: 30px 20px 60px 20px;
+    }
+    /* line 477, ../sass/authenty.scss */
+    
+    .authenty.signup-window .sns-signin {
+        margin-top: 40px;
+    }
+    /* line 479, ../sass/authenty.scss */
+    
+    .authenty.signup-window .sns-signin a {
+        font-size: 13px;
+    }
+    /* line 481, ../sass/authenty.scss */
+    
+    .authenty .signup-window .sns-signin a .fa-facebook {
+        padding: 7px 10px 7px 10px;
+        margin-right: 10px;
+        margin-left: 5px;
+    }
+    /* line 488, ../sass/authenty.scss */
+    
+    .authenty.signup-window .horizontal-divider {
+        width: 100%;
+        height: 1px;
+        margin-top: 40px;
+        margin-bottom: 40px;
+    }
+    /* line 493, ../sass/authenty.scss */
+    
+    .authenty.signup-window .horizontal-divider:before {
+        content: 'OR';
+        top: -11px;
+        left: 46%;
+        padding: 0 5px;
+    }
+}
